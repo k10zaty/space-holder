@@ -1,0 +1,33 @@
+.tags {
+    width: 267px;
+    height: auto;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+    margin-left: 1100px; /* Выравниваем блок справа */
+    margin-bottom: 40px; /* Добавляем отступ снизу */
+}
+
+.tags__title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 20px;
+    color: black;
+}
+
+.tags__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tags__item {
+    background-color: #f0f0f0;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    white-space: nowrap;
+}

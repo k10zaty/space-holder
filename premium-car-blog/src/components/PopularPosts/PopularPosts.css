@@ -1,0 +1,51 @@
+.popular-posts {
+    width: 270px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+    margin-left: 1100px; /* Выравниваем блок справа */
+    margin-bottom: 40px; /* Добавляем отступ снизу */
+}
+
+.popular-posts__title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 20px;
+    color: black;
+}
+
+.popular-posts__item {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.popular-posts__image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.hero-images__tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #4285F4;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.popular-posts__item-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+.popular-posts__item-author {
+    font-size: 14px;
+    color: #777;
+    margin: 0;
+}

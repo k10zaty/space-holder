@@ -1,0 +1,57 @@
+.most-popular {
+    text-align: center;
+    margin-bottom: 40px; /* Добавляем отступ снизу */
+    margin-left: -200px;
+}
+
+.most-popular__title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 350px 20px;
+    color: black;
+    text-align: left;
+}
+
+.most-popular__items {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 350px;
+    gap: 50px; /* Добавляем отступы между картинками */
+}
+
+.most-popular__item {
+    position: relative;
+    width: 270px;
+    height: 298px;
+    text-align: left;
+}
+
+.most-popular__image {
+    width: 270px;
+    height: 195px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.most-popular__tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #4285F4;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.most-popular__item-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+.most-popular__item-author {
+    font-size: 14px;
+    color: #777;
+    margin: 0;
+}

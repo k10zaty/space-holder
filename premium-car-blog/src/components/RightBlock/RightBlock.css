@@ -1,0 +1,57 @@
+.right-block {
+    width: 270px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+    margin-top: -2700px;
+    margin-left: 1100px; /* Выравниваем блок справа */
+    margin-bottom: 40px; /* Добавляем отступ снизу */
+}
+
+.right-block__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.right-block__image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.right-block__content {
+    text-align: left;
+}
+
+.right-block__title {
+    font-size: 24px;
+    margin: 0 0 10px;
+}
+
+.right-block__subtitle {
+    font-size: 16px;
+    color: #777;
+    margin: 0 0 20px;
+}
+
+.right-block__description {
+    font-size: 14px;
+    margin: 0 0 20px;
+    text-align: left;
+}
+
+.right-block__button {
+    background-color: black;
+    color: white;
+    padding: 20px 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}

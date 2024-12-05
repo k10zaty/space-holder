@@ -1,0 +1,46 @@
+.email-newsletter {
+    width: 267px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+    margin-left: 1100px; /* Выравниваем блок справа */
+    margin-bottom: 40px; /* Добавляем отступ снизу */
+}
+
+.email-newsletter__title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    color: rgb(66, 65, 65);
+}
+
+.email-newsletter__description {
+    font-size: 14px;
+    margin: 0 0 20px;
+    color: rgb(100, 95, 95);
+}
+
+.email-newsletter__form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.email-newsletter__input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.email-newsletter__button {
+    background-color: black;
+    color: white;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}

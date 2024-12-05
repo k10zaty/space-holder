@@ -1,0 +1,52 @@
+.image-with-text {
+    margin-bottom: 150px; /* Добавляем отступ снизу */
+    margin-left: -200px;
+}
+
+.image-with-text__container {
+    position: relative;
+    width: 100%;
+    max-width: 790px;
+    margin: 0 auto;
+    height: 400px;
+}
+
+.image-with-text__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.image-with-text__overlay {
+    position: absolute;
+    bottom: -23%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.image-with-text__title {
+    font-size: 24px;
+    margin: 35px 0 10px;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.image-with-text__author {
+    font-size: 16px;
+    color: #777;
+    margin: 0 0 10px;
+    text-align: left;
+}
+
+.image-with-text__description {
+    font-size: 18px;
+    margin: 0;
+    text-align: left;
+}

@@ -1,0 +1,49 @@
+.instagram {
+    width: 270px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin-left: 1100px; /* Выравниваем блок справа */
+    margin-bottom: 40px; /* Добавляем отступ снизу */
+}
+
+.instagram__title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px 0 20px;
+    color: black;
+}
+
+.instagram__gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.instagram__image {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.instagram__button {
+    background-color: black;
+    color: white;
+    padding: 20px 70px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.instagram__logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}

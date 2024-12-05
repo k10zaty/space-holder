@@ -1,0 +1,68 @@
+.hero-images {
+    padding: 20px;
+    margin-bottom: 40px; /* Добавляем отступ снизу */
+}
+
+.hero-images__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero-images__item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.hero-images__item--large {
+    grid-column: span 1;
+    grid-row: span 2;
+    height: 560px;
+}
+
+.hero-images__item--small {
+    grid-column: span 1;
+    grid-row: span 1;
+    height: 270px;
+}
+
+.hero-images__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-images__tag {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #4285F4;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.hero-images__info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.hero-images__author {
+    font-size: 14px;
+    margin: 0;
+}
+
+.hero-images__title {
+    font-size: 20px;
+    margin: 5px 0 0;
+}

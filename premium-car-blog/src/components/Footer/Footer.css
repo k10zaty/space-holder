@@ -1,0 +1,167 @@
+.footer {
+    background-color: #1a1919;
+    color: white;
+    padding: 50px 0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.footer__left, .footer__right {
+    width: 45%;
+}
+
+.footer__logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer__logo .header__logo-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer__logo .header__logo-text--premium {
+    color: white;
+}
+
+.footer__logo .header__logo-text--car {
+    color: #4285F4;
+}
+
+.footer__description {
+    font-size: 14px;
+    margin: 0 0 50px;
+}
+
+.footer__title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 20px;
+}
+
+.footer__social {
+    display: flex;
+    gap: 10px;
+}
+
+.footer__social-icon {
+    width: 34px;
+    height: 34px;
+    display: block;
+}
+
+.footer__social-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.recent-posts__title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 20px;
+    color: white;
+}
+
+.recent-posts__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.recent-posts__image {
+    width: 95px;
+    height: 95px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.recent-posts__content {
+    flex: 1;
+}
+
+.recent-posts__item-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 0 5px;
+}
+
+.recent-posts__item-author {
+    font-size: 14px;
+    color: #777;
+    margin: 0;
+}
+
+.footer__newsletter {
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 40px;
+}
+
+.newsletter__title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 20px;
+    color: white;
+}
+
+.newsletter__form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.newsletter__input {
+    padding: 10px;
+    border: 1px solid #2c2c2c;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.newsletter__button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.footer__bottom {
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer__bottom-text {
+    font-size: 14px;
+    margin: 0 0 10px;
+}
+
+.footer__bottom-nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer__bottom-link {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}

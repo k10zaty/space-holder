@@ -1,0 +1,69 @@
+.header {
+    background-color: black;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo-text {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.header__logo-text--premium {
+    color: white;
+}
+
+.header__logo-text--car {
+    color: #4285F4;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+}
+
+.header__nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header__nav-item {
+    margin-left: 60px;
+}
+
+.header__nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.header__search {
+    display: flex;
+    align-items: center;
+}
+
+.header__search-icon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
